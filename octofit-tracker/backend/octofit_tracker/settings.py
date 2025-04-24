@@ -18,7 +18,7 @@ SECRET_KEY = 'django-insecure-25rsll_s*6ml5lv4l$51z6x!y5u_k!11f!hf^1&%q!$syk=ja3
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'psychic-barnacle-r64g64rgwg43p5wx-8000.app.github.dev']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
