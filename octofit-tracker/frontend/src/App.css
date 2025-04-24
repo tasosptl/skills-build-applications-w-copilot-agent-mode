@@ -1,0 +1,143 @@
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif; /* Added from example */
+  background-color: #f0f8ff; /* Light blue background from example */
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Navigation styles - Enhance Bootstrap */
+.navbar.bg-primary {
+  background-color: #4682b4 !important; /* Steel blue from example */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added shadow */
+}
+
+.navbar-brand {
+  font-size: 1.8rem; /* Increased size */
+  font-weight: bold;
+  color: #fff !important;
+  display: flex; /* Align logo and text */
+  align-items: center; /* Center items vertically */
+}
+
+.nav-link {
+  color: #fff !important; /* White text from example */
+  font-weight: 500;
+  transition: color 0.3s, transform 0.3s;
+  margin: 0 0.5rem;
+}
+
+.nav-link:hover {
+  color: #e0ffff !important; /* Light cyan hover from example */
+  transform: scale(1.05);
+  text-decoration: underline;
+}
+
+/* Logo styling */
+.app-logo {
+  height: 40px; /* Adjust size as needed */
+  margin-right: 1rem; /* Space between logo and text */
+}
+
+/* Table styling - Enhance Bootstrap */
+.table {
+  width: 90%;
+  margin: 2rem auto;
+  background-color: #ffffff; /* White background from example */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table thead th {
+  background-color: #4682b4; /* Steel blue header from example */
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-bottom: none; /* Remove default border */
+}
+
+.table td {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(70, 130, 180, 0.05); /* Lighter steel blue stripe */
+}
+
+.table tbody tr:hover {
+  background-color: rgba(70, 130, 180, 0.1); /* Slightly darker hover from example */
+}
+
+/* Heading styles - Enhance Bootstrap */
+h1.text-primary {
+  color: #4682b4 !important; /* Steel blue from example */
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+/* Button styles - Enhance Bootstrap */
+.btn-primary {
+  background-color: #4682b4; /* Steel blue from example */
+  border-color: #4682b4;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #36648b; /* Darker steel blue hover */
+  border-color: #36648b;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Card styles - Enhance Bootstrap */
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background-color: #4682b4; /* Steel blue */
+  color: white;
+  font-weight: bold;
+}
+
+/* Home page styling */
+.welcome-container {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-container h1 {
+  color: #4682b4; /* Steel blue */
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.welcome-image {
+  max-width: 200px; /* Adjusted size */
+  margin-bottom: 2rem;
+}
+
+/* Remove default CRA styles if they conflict */
+/* .App-logo { ... } */
+/* .App-header { ... } */
+/* .App-link { ... } */
+/* @keyframes App-logo-spin { ... } */
